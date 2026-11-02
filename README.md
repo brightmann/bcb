@@ -30,3 +30,5 @@ Python 支持目前属于 pnpm 的实验性功能。Docker 使用同一套共享
 
 - **代码部分**：遵循 [MIT License](LICENSE)，你可以自由地使用、修改和分发本项目代码。
 - **文章内容**：遵循 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议。转载请注明出处，不可用于商业目的，且需以相同方式共享。
+
+<!-- trigger Workers Builds rebuild -->
