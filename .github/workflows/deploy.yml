@@ -107,7 +107,7 @@ jobs:
           if [ -n "$(git status --porcelain packages/blog-data)" ]; then
             echo "Changes detected in packages/blog-data"
             git add packages/blog-data
-            git commit -m "chore: update blog data cache [skip ci]" --no-verify
+            git commit -m "chore: update blog data cache" --no-verify
             git pull --rebase
             git push
           else
