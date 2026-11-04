@@ -1,13 +1,25 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import PageHeader from '@/components/common/PageHeader.astro';
+import Pager from '@/components/common/Pager.astro';
 import PostList from '@/components/list/PostList.astro';
 import { sortedPosts } from '@/utils/data';
+import { PAGE_SIZE } from '@/utils/pagination';
+import { routes } from '@/utils/routes';
+
+// 文章归档第 1 页，每页 PAGE_SIZE 篇；第 2 页及以后由 articles/page/[page].astro 生成
+const pagePosts = sortedPosts.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 ---
 
 <Layout title="文章" description="全部文章归档，记录技术探索与生活思考。">
   <div class="w-full">
     <PageHeader title="文章" subtitle={`共 ${sortedPosts.length} 篇`} />
-    <PostList posts={sortedPosts} />
+    <PostList posts={pagePosts} />
+    <Pager
+      currentPage={1}
+      totalPages={totalPages}
+      pageHref={routes.articlesPage}
+    />
   </div>
 </Layout>
