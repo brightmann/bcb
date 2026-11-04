@@ -1,0 +1,28 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Pager from '@/components/common/Pager.astro';
+import PostList from '@/components/list/PostList.astro';
+import { sortedPosts } from '@/utils/data';
+import { PAGE_SIZE } from '@/utils/pagination';
+import type { GetStaticPathsOptions, Page } from 'astro';
+import type { Post } from '@/utils/data';
+
+// 第 1 页由首页 index.astro 渲染，这里只生成第 2 页及以后，避免 /page/1 与首页重复
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const pages = paginate(sortedPosts, { pageSize: PAGE_SIZE });
+  return pages.filter((p) => p.params.page !== '1');
+}
+
+interface Props {
+  page: Page<Post>;
+}
+
+const { page } = Astro.props;
+---
+
+<Layout title={`第 ${page.currentPage} 页`}>
+  <div class="w-full">
+    <PostList posts={page.data} />
+    <Pager currentPage={page.currentPage} totalPages={page.lastPage} />
+  </div>
+</Layout>

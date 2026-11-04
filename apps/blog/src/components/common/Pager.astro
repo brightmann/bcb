@@ -1,0 +1,56 @@
+---
+import { routes } from '@/utils/routes';
+import { getPageNumbers } from '@/utils/pagination';
+
+/** 编号分页器：Previous | 1 | 2 | … | N | Next；只有一页时不渲染 */
+interface Props {
+  currentPage: number;
+  totalPages: number;
+}
+
+const { currentPage, totalPages } = Astro.props;
+const numbers = getPageNumbers(currentPage, totalPages);
+---
+
+{
+  totalPages > 1 && (
+    <nav
+      class="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 text-sm"
+      aria-label="分页"
+    >
+      {currentPage > 1 ? (
+        <a href={routes.page(currentPage - 1)} class="link-muted">
+          Previous
+        </a>
+      ) : (
+        <span class="text-base-text-light/50" aria-hidden="true">
+          Previous
+        </span>
+      )}
+      {numbers.map((n) =>
+        n === '…' ? (
+          <span class="text-base-text-light" aria-hidden="true">
+            …
+          </span>
+        ) : n === currentPage ? (
+          <span class="font-semibold text-base-text" aria-current="page">
+            {n}
+          </span>
+        ) : (
+          <a href={routes.page(n)} class="link-muted">
+            {n}
+          </a>
+        ),
+      )}
+      {currentPage < totalPages ? (
+        <a href={routes.page(currentPage + 1)} class="link-muted">
+          Next
+        </a>
+      ) : (
+        <span class="text-base-text-light/50" aria-hidden="true">
+          Next
+        </span>
+      )}
+    </nav>
+  )
+}

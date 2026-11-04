@@ -1,13 +1,14 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import MoreLink from '@/components/common/MoreLink.astro';
+import Pager from '@/components/common/Pager.astro';
 import PostList from '@/components/list/PostList.astro';
 import { sortedPosts } from '@/utils/data';
-import { routes } from '@/utils/routes';
+import { PAGE_SIZE } from '@/utils/pagination';
 import { intro } from '@/utils/site';
 
-const RECENT_COUNT = 10;
-const recentPosts = sortedPosts.slice(0, RECENT_COUNT);
+// 首页即第 1 页，每页 PAGE_SIZE 篇；第 2 页及以后由 page/[page].astro 生成
+const pagePosts = sortedPosts.slice(0, PAGE_SIZE);
+const totalPages = Math.ceil(sortedPosts.length / PAGE_SIZE);
 ---
 
 <Layout>
@@ -23,16 +24,7 @@ const recentPosts = sortedPosts.slice(0, RECENT_COUNT);
   </header>
 
   <div class="w-full">
-    <PostList posts={recentPosts} />
-    {
-      sortedPosts.length > RECENT_COUNT && (
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-12 pt-6">
-          <div class="hidden lg:block" aria-hidden="true" />
-          <div>
-            <MoreLink href={routes.articles()} text="全部文章" />
-          </div>
-        </div>
-      )
-    }
+    <PostList posts={pagePosts} />
+    <Pager currentPage={1} totalPages={totalPages} />
   </div>
 </Layout>
