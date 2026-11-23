@@ -1,8 +1,316 @@
 {
-  "generated_at": "2026-11-16T04:26:54.933805+00:00",
+  "generated_at": "2026-11-23T05:23:49.292364+00:00",
   "feed_url": "https://raw.githubusercontent.com/bosens-China/Weekly-trend/master/feed.xml",
-  "last_build_date": "2026-11-16T09:14:47+08:00",
+  "last_build_date": "2026-11-23T09:25:24+08:00",
   "items": [
+    {
+      "id": "2026-11-23",
+      "slug": "2026-11-23",
+      "title": "GitHub 一周热点 · 第 23 期",
+      "source_title": "第 23 期 · 2026-11-23",
+      "description": "本期收录 13 个项目",
+      "pub_date": "2026-11-23",
+      "rss_pub_date": "2026-11-23T09:25:24+08:00",
+      "source_url": "https://github.com/bosens-China/Weekly-trend/blob/master/reports/2026_11_23/README.md",
+      "raw_url": "https://raw.githubusercontent.com/bosens-China/Weekly-trend/master/reports/2026_11_23/README.md",
+      "report_url": "https://raw.githubusercontent.com/bosens-China/Weekly-trend/master/reports/2026_11_23/report.json",
+      "source": "GitHub Trending（本周）",
+      "issue": 23,
+      "date": "2026-11-23",
+      "report_generated_at": "2026-11-23T09:25:24+08:00",
+      "project_count": 13,
+      "category_count": 8,
+      "categories": [
+        {
+          "name": "Agent 协作与代码审查",
+          "items": [
+            {
+              "repo": "backnotprop/plannotator",
+              "url": "https://github.com/backnotprop/plannotator",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "14,439",
+              "period_stars": "2,815 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/annotate.webp",
+              "source_image": "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/annotate.webp",
+              "summary": "为编程 Agent 提供本地浏览器审查界面，支持批注计划、文档和 HTML，审阅代码差异与 PR，并将反馈交回 Agent。",
+              "tags": [
+                "AI 编程",
+                "代码审查",
+                "协作"
+              ]
+            },
+            {
+              "repo": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "description": "",
+              "language": "Go",
+              "total_stars": "55,424",
+              "period_stars": "3,700 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+              "source_image": "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+              "summary": "阿里开源的代码审查工具，将确定性规则流水线与大模型 Agent 结合，对代码变更给出行级审查意见，并支持多语言规则与兼容 OpenAI 的模型接口。",
+              "tags": [
+                "代码审查",
+                "AI Agent",
+                "静态分析"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agent Skills 与开发流程",
+          "items": [
+            {
+              "repo": "google-labs-code/stitch-skills",
+              "url": "https://github.com/google-labs-code/stitch-skills",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "11,927",
+              "period_stars": "2,683 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "",
+              "source_image": "",
+              "summary": "Google Stitch 的 Agent Skills 和插件集合，提供设计生成、设计系统管理、前端构建等工作流，可与 Codex、Claude Code 等编程 Agent 配合使用。",
+              "tags": [
+                "Agent Skills",
+                "界面设计",
+                "Stitch"
+              ]
+            },
+            {
+              "repo": "GoogleChrome/modern-web-guidance-src",
+              "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "10,214",
+              "period_stars": "3,575 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "",
+              "source_image": "",
+              "summary": "Modern Web Guidance 的源码仓库，维护供编程 Agent 使用的现代 Web 平台知识、最佳实践及浏览器兼容性信息，并提供内容编写和评估工具。",
+              "tags": [
+                "Web 标准",
+                "Agent Skills",
+                "浏览器兼容"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "信息检索与研究",
+          "items": [
+            {
+              "repo": "mvanhorn/last30days-skill",
+              "url": "https://github.com/mvanhorn/last30days-skill",
+              "description": "",
+              "language": "Python",
+              "total_stars": "72,730",
+              "period_stars": "4,731 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "",
+              "source_image": "",
+              "summary": "面向 Agent 的话题研究技能，汇总 Reddit、X、YouTube、新闻和其他来源的近期讨论与信息，帮助形成研究摘要。",
+              "tags": [
+                "Agent Skills",
+                "信息检索",
+                "研究"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "浏览器开发与 Agent 协议",
+          "items": [
+            {
+              "repo": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "58,846",
+              "period_stars": "2,268 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "",
+              "source_image": "",
+              "summary": "将 Chrome DevTools 通过 MCP 服务和命令行提供给编程 Agent，支持浏览器自动化、网络与控制台检查、截图及性能分析。",
+              "tags": [
+                "MCP",
+                "Chrome",
+                "浏览器调试"
+              ]
+            },
+            {
+              "repo": "ag-ui-protocol/ag-ui",
+              "url": "https://github.com/ag-ui-protocol/ag-ui",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "21,200",
+              "period_stars": "3,620 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/overview.svg",
+              "source_image": "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/overview.svg",
+              "summary": "连接 AI Agent 与用户应用的开放事件协议，定义消息、状态和工具调用等交互方式，提供 SDK 与示例以便将 Agent 接入前端。",
+              "tags": [
+                "AI Agent",
+                "协议",
+                "前端"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "金融与个人理财",
+          "items": [
+            {
+              "repo": "tradermonty/claude-trading-skills",
+              "url": "https://github.com/tradermonty/claude-trading-skills",
+              "description": "",
+              "language": "Python",
+              "total_stars": "7,795",
+              "period_stars": "2,616 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/market-posture.svg",
+              "source_image": "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/market-posture.svg",
+              "summary": "面向个人投资者的 Claude Skills 工作流工具集，覆盖市场复盘、风险管理、交易计划和日志等；项目定位于辅助研究与决策流程。",
+              "tags": [
+                "Agent Skills",
+                "交易研究",
+                "风险管理"
+              ]
+            },
+            {
+              "repo": "we-promise/sure",
+              "url": "https://github.com/we-promise/sure",
+              "description": "",
+              "language": "Ruby",
+              "total_stars": "17,341",
+              "period_stars": "1,771 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-light.webp",
+              "source_image": "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-light.webp",
+              "summary": "开源个人理财应用，提供净资产、现金流、支出等信息的展示，并集成 AI 助手；项目基于 Maybe Finance 的社区分支。",
+              "tags": [
+                "个人理财",
+                "资产管理",
+                "自托管"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "前端与办公组件",
+          "items": [
+            {
+              "repo": "meta/astryx",
+              "url": "https://github.com/meta/astryx",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "32,241",
+              "period_stars": "3,626 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+              "source_image": "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+              "summary": "Meta 开源的 React 设计系统，提供可定制的组件和主题，并为人与 Agent 共同开发提供文档及配套能力；项目目前处于 Beta 阶段。",
+              "tags": [
+                "React",
+                "设计系统",
+                "AI Agent"
+              ]
+            },
+            {
+              "repo": "dream-num/univer",
+              "url": "https://github.com/dream-num/univer",
+              "description": "",
+              "language": "TypeScript",
+              "total_stars": "31,272",
+              "period_stars": "6,436 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/cards/sheets.webp",
+              "source_image": "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/cards/sheets.webp",
+              "summary": "面向 Web 的办公内容 SDK，开源核心包括表格和文档编辑、计算与渲染引擎、插件系统等，可嵌入应用；部分扩展和服务另行商业授权。",
+              "tags": [
+                "电子表格",
+                "文档编辑",
+                "SDK"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "设备与个人工具",
+          "items": [
+            {
+              "repo": "pookjw/HermesEnabler",
+              "url": "https://github.com/pookjw/HermesEnabler",
+              "description": "",
+              "language": "Objective-C",
+              "total_stars": "2,405",
+              "period_stars": "461 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+              "source_image": "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+              "summary": "帮助在受支持的 Apple Watch 与 watchOS 版本上启用 Hermès 表盘的工具，仓库提供安装方法和支持版本说明。",
+              "tags": [
+                "Apple Watch",
+                "表盘",
+                "工具"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "多媒体创作",
+          "items": [
+            {
+              "repo": "kajisho5/ffmpeg-skill",
+              "url": "https://github.com/kajisho5/ffmpeg-skill",
+              "description": "",
+              "language": "Python",
+              "total_stars": "9,732",
+              "period_stars": "3,748 stars this week",
+              "homepage": "",
+              "topics": [],
+              "image": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/site/media/review_en.png",
+              "source_image": "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/site/media/review_en.png",
+              "summary": "为编程 Agent 提供本地视频处理能力，封装剪辑、字幕、画面裁切、音量处理等 FFmpeg 工具，并支持 MCP 调用与输出检查。",
+              "tags": [
+                "FFmpeg",
+                "Agent Skills",
+                "视频编辑"
+              ]
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/annotate.webp",
+        "https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png",
+        "https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/overview.svg",
+        "https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/market-posture.svg",
+        "https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-light.webp",
+        "https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png",
+        "https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/cards/sheets.webp",
+        "https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png",
+        "https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/site/media/review_en.png"
+      ],
+      "body": "# GitHub 一周热点 · 第 23 期\n\n## Agent 协作与代码审查\n\n### [backnotprop/plannotator](https://github.com/backnotprop/plannotator)\n\n- ⭐ 总 star 14,439\n- 🔥 本周 star 2,815 stars this week\n- 💻 TypeScript\n\n![](https://raw.githubusercontent.com/backnotprop/plannotator/main/.github/assets/annotate.webp)\n\n为编程 Agent 提供本地浏览器审查界面，支持批注计划、文档和 HTML，审阅代码差异与 PR，并将反馈交回 Agent。\n\n`#AI 编程` `#代码审查` `#协作`\n\n### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)\n\n- ⭐ 总 star 55,424\n- 🔥 本周 star 3,700 stars this week\n- 💻 Go\n\n![](https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png)\n\n阿里开源的代码审查工具，将确定性规则流水线与大模型 Agent 结合，对代码变更给出行级审查意见，并支持多语言规则与兼容 OpenAI 的模型接口。\n\n`#代码审查` `#AI Agent` `#静态分析`\n\n## Agent Skills 与开发流程\n\n### [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)\n\n- ⭐ 总 star 11,927\n- 🔥 本周 star 2,683 stars this week\n- 💻 TypeScript\n\nGoogle Stitch 的 Agent Skills 和插件集合，提供设计生成、设计系统管理、前端构建等工作流，可与 Codex、Claude Code 等编程 Agent 配合使用。\n\n`#Agent Skills` `#界面设计` `#Stitch`\n\n### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)\n\n- ⭐ 总 star 10,214\n- 🔥 本周 star 3,575 stars this week\n- 💻 TypeScript\n\nModern Web Guidance 的源码仓库，维护供编程 Agent 使用的现代 Web 平台知识、最佳实践及浏览器兼容性信息，并提供内容编写和评估工具。\n\n`#Web 标准` `#Agent Skills` `#浏览器兼容`\n\n## 信息检索与研究\n\n### [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)\n\n- ⭐ 总 star 72,730\n- 🔥 本周 star 4,731 stars this week\n- 💻 Python\n\n面向 Agent 的话题研究技能，汇总 Reddit、X、YouTube、新闻和其他来源的近期讨论与信息，帮助形成研究摘要。\n\n`#Agent Skills` `#信息检索` `#研究`\n\n## 浏览器开发与 Agent 协议\n\n### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)\n\n- ⭐ 总 star 58,846\n- 🔥 本周 star 2,268 stars this week\n- 💻 TypeScript\n\n将 Chrome DevTools 通过 MCP 服务和命令行提供给编程 Agent，支持浏览器自动化、网络与控制台检查、截图及性能分析。\n\n`#MCP` `#Chrome` `#浏览器调试`\n\n### [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)\n\n- ⭐ 总 star 21,200\n- 🔥 本周 star 3,620 stars this week\n- 💻 TypeScript\n\n![](https://raw.githubusercontent.com/ag-ui-protocol/ag-ui/main/.github/readme/overview.svg)\n\n连接 AI Agent 与用户应用的开放事件协议，定义消息、状态和工具调用等交互方式，提供 SDK 与示例以便将 Agent 接入前端。\n\n`#AI Agent` `#协议` `#前端`\n\n## 金融与个人理财\n\n### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)\n\n- ⭐ 总 star 7,795\n- 🔥 本周 star 2,616 stars this week\n- 💻 Python\n\n![](https://raw.githubusercontent.com/tradermonty/claude-trading-skills/main/docs/assets/previews/market-posture.svg)\n\n面向个人投资者的 Claude Skills 工作流工具集，覆盖市场复盘、风险管理、交易计划和日志等；项目定位于辅助研究与决策流程。\n\n`#Agent Skills` `#交易研究` `#风险管理`\n\n### [we-promise/sure](https://github.com/we-promise/sure)\n\n- ⭐ 总 star 17,341\n- 🔥 本周 star 1,771 stars this week\n- 💻 Ruby\n\n![](https://raw.githubusercontent.com/we-promise/sure/main/docs/screenshots/dashboard-light.webp)\n\n开源个人理财应用，提供净资产、现金流、支出等信息的展示，并集成 AI 助手；项目基于 Maybe Finance 的社区分支。\n\n`#个人理财` `#资产管理` `#自托管`\n\n## 前端与办公组件\n\n### [meta/astryx](https://github.com/meta/astryx)\n\n- ⭐ 总 star 32,241\n- 🔥 本周 star 3,626 stars this week\n- 💻 TypeScript\n\n![](https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png)\n\nMeta 开源的 React 设计系统，提供可定制的组件和主题，并为人与 Agent 共同开发提供文档及配套能力；项目目前处于 Beta 阶段。\n\n`#React` `#设计系统` `#AI Agent`\n\n### [dream-num/univer](https://github.com/dream-num/univer)\n\n- ⭐ 总 star 31,272\n- 🔥 本周 star 6,436 stars this week\n- 💻 TypeScript\n\n![](https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/readme/cards/sheets.webp)\n\n面向 Web 的办公内容 SDK，开源核心包括表格和文档编辑、计算与渲染引擎、插件系统等，可嵌入应用；部分扩展和服务另行商业授权。\n\n`#电子表格` `#文档编辑` `#SDK`\n\n## 设备与个人工具\n\n### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)\n\n- ⭐ 总 star 2,405\n- 🔥 本周 star 461 stars this week\n- 💻 Objective-C\n\n![](https://raw.githubusercontent.com/pookjw/HermesEnabler/main/image.png)\n\n帮助在受支持的 Apple Watch 与 watchOS 版本上启用 Hermès 表盘的工具，仓库提供安装方法和支持版本说明。\n\n`#Apple Watch` `#表盘` `#工具`\n\n## 多媒体创作\n\n### [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)\n\n- ⭐ 总 star 9,732\n- 🔥 本周 star 3,748 stars this week\n- 💻 Python\n\n![](https://raw.githubusercontent.com/kajisho5/ffmpeg-skill/main/site/media/review_en.png)\n\n为编程 Agent 提供本地视频处理能力，封装剪辑、字幕、画面裁切、音量处理等 FFmpeg 工具，并支持 MCP 调用与输出检查。\n\n`#FFmpeg` `#Agent Skills` `#视频编辑`\n",
+      "word_count": 839,
+      "reading_time": 4
+    },
     {
       "id": "2026-11-16",
       "slug": "2026-11-16",
